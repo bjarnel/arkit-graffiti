@@ -1,6 +1,8 @@
 # arkit-graffity-demo
 Bjarne Lundgren / bjarne@sent.com / [@bjarnel](https://twitter.com/bjarnel)
 
+UPDATE Feb-2018: Added ARkit camera tracking state on screen.
+
 This is a quick demo with vertical planes "tracking" derived from my other demo (arkit-occlusion-demo). It allows you to draw graffity on the walls/vertical planes. Features:
 - map walls (so they are tracked relative to floor)
 - draw simple decals on each tracked walls (using SpriteKit!)
@@ -10,8 +12,6 @@ This is a quick demo with vertical planes "tracking" derived from my other demo 
 This requires, Xcode 9, iOS 11 and a relatively recent iOS device.
 
 You can pretty much do want you want with the code, but please provide attribution, also if you use it to create a video.
-
-Hey! If you go paint a moustache on some famous painting in a musuem, please shoot a video (use iOS 11 screen recording) and send it (link) to me :)
 
 License
 =======

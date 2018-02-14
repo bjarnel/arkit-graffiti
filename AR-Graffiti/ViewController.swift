@@ -327,6 +327,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         DispatchQueue.main.async(execute: updateWallTracking)
     }
     
+    // MARK: - ARSessionObserver
+    
+    func session(_ session: ARSession, cameraDidChangeTrackingState camera: ARCamera) {
+        HUD.present(state: camera.trackingState,
+                    in: sceneView.overlaySKScene!)
+    }
+    
 }
 
 
